@@ -1,0 +1,30 @@
+<!-- Marwa Chbeir CIS 435-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Info</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/fetch-data.js"></script>
+</head>
+<body>
+    <h1>Cryptocurrency Info</h1>
+    <div class="container">
+        <button id="btn-fetch">Reload Cryptocurrency Data</button>
+
+        <select id="cryptoSelect">
+            <option value="">Select a Cryptocurrency</option>
+        </select>
+
+      
+        <div id="cryptoInfo">
+            <h2 id="cName">Select a Cryptocurrency</h2>
+            <p>Symbol: <span id="cSymbol"></span></p>
+            <p>Supply: <span id="cSupply"></span></p>
+            <p>Price: $<span id="cPrice"></span></p>
+            <p>% Change (24 hrs): <span id="cChange"></span></p>
+        </div>
+    </div>
+</body>
+</html>

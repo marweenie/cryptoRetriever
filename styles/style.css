@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(white, darkgray);
+}
+
+.controls {
+    margin-right: auto;
+}
+
+.container {
+    border: .2em solid gray;
+    padding: 2em;
+    width: 25em;
+    background-color: white;
+    border-radius: 1em;
+    margin: 2em;
+}
+
+select {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 2em;
+    font-size: 1.2em;
+    border-radius: 0.5em;
+    cursor: pointer;
+
+}
+
+#cryptoInfo {
+    border: .2em solid gray;
+    padding: 1.5em;
+    border-radius: 1em;
+}
+
+h1{
+    margin: 2em;
+    padding: 0;
+    font-size: 2em;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+#btn-fetch {
+    font-family: Arial;
+    font-size: 1em;
+    padding: 0.8em;
+    text-align: center; 
+    border: none;
+    border-radius: 0.5em;
+
+}
+
+button{
+    display: flex;
+    margin: 1em auto;   
+}
+button:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+
